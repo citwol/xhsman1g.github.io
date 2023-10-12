@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+
+body {
+    font-family: 'Onest', sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    overflow-x: hidden;
+
+    background-color: #D1DBBD;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.img-container img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #193441;
+}
+
+.link-item {
+    width: 80%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    color: white;
+    text-decoration: none;
+    background-color: #193441;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.link-item p {
+    margin-right: 60px;
+}
+
+.link-item:hover {
+    transition: cubic-bezier(.07, 1.41, .81, 1.41) 0.2s;
+    transform: scale(1.02);
+    background-color: white;
+}
